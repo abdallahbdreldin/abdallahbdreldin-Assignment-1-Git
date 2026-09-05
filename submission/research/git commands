@@ -1,0 +1,27 @@
+git squash : combine multiple commints into one clear commit .
+
+git merge  vs  git rebase  
+        merge : combines changes from branch to the target branch ( keep branch commits history)
+        rebase : combines changes from branch to the top of target brach ( linear history ) 
+
+git help : opens manual page for git commit
+
+git cherry-pick : copy changes from specific commit to the target branch
+
+git clean : deletes untracked folders and directory
+
+git grep : searched for text accros the tracked files
+
+git blame : who last changed each line of this file 
+
+git bisect : find the commit that causes the bug
+
+git shortlog : who made the commits
+
+git prune : remove unreachable git objects
+
+git worktree : creating multiple folders for the same repo
+
+git verify-commit : verify the author
+
+git filter-repo : permanently deleting file from the whole commits history
